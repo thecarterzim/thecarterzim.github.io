@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:powderblue;">
+<head>
+  <title> Love is Blind - How old is Mark?</title>
+  <script>
+function calculateSub() {
+  A = eval(document.frmOne.jessicaKid.value);
+  B = (A + 35);
+  document.frmOne.jessicaAge.value = B;
+}
+function calculateSub1() {
+  A = eval(document.frmOne.jessicaAge.value);
+  C = (B - 10);
+  document.frmOne.markAge.value = C;
+}
+  </script>
+<head>
+<body style="background: linear-gradient(to bottom, #00cc99 0%, #9966ff 100%);">
+<br>
+<br>
 <h1 align="center">How old is Mark?</h1>
 <p align="center">A helpful birthday calculator for Lydia (inspired by Love is Blind).</p>
-<div align= "center"
-<img src="jessica_teenager.jpg" alt="Italian Trulli">
-
-
+<br>
+<br>
+<FORM align NAME = frmOne>
+<center><h2>1. Enter the age of Jessica's kid: <INPUT TYPE = Text NAME = jessicaKid SIZE = 3 value =""><h2>
+<img src="/images/jessica_teenager.jpeg" alt="jessicakid" height="185" width="125">
+<br>
+<br>
+<Input Type = Button NAME = b2 VALUE = "Calculate Jessica's Age!" onClick = calculateSub()></center>
+<hr>
+<center><h2>2. Jessica would be <INPUT Type= Text NAME = jessicaAge SIZE = 3 value = ""> years old!</h2>
+<center><img src="/images/jessica.png" alt="jessica" height="185" width="135">
+<br>
+<br>
+<Input Type = Button NAME = b2 VALUE = "Calculate Mark's age!" onClick = calculateSub1()></center>
+<hr>
+<h1>3. Mark would be <Input Type= Text Name = markAge SIZE = 3 value =""<h1> years old!!!
+<br>
+<br>
+<img src="/images/mark.png" alt="mark" height="185" width="150">
+</FORM>
+<br>
 </body>
 </html>
